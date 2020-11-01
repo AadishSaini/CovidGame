@@ -1,0 +1,38 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://src/Player.gd" type="Script" id=1]
+[ext_resource path="res://assets/manBlue_gun.png" type="Texture" id=2]
+[ext_resource path="res://assets/Swamp_Background_web.wav" type="AudioStream" id=3]
+[ext_resource path="res://assets/heartbeat.wav" type="AudioStream" id=4]
+[ext_resource path="res://assets/362670__osiruswaltz__creepy-background-noise-1-loopable.wav" type="AudioStream" id=5]
+
+[node name="Player" type="KinematicBody2D"]
+script = ExtResource( 1 )
+
+[node name="sprite" type="Sprite" parent="."]
+position = Vector2( 0, 1.43051e-06 )
+scale = Vector2( 0.979592, 1.11628 )
+texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( 7.35251, 4.96354, 20.716, 5.0749, 22.1637, 5.9658, 23.0546, 6.52261, 22.9432, 13.5384, 22.3864, 15.0975, 21.3842, 16.0998, 10.2479, 16.2111, 10.1366, 18.1043, 9.24567, 19.4406, 8.02068, 20.8884, 5.23662, 20.9997, 4.45709, 23.227, 3.2321, 23.3383, 3.2321, 24.1179, -14.0291, 24.0065, -14.92, 23.227, -16.3677, 22.4474, -17.0358, 21.6679, -17.9267, 20.2202, -18.929, 17.9929, -19.4858, 16.6566, -19.3745, 8.63849, -20.4881, 7.30215, -21.379, 6.07716, -22.2699, 2.06812, -22.0471, -3.72272, -21.1562, -3.83408, -21.1562, -5.83861, -19.7085, -5.94997, -19.8199, -10.7385, -18.929, -10.7385, -19.0404, -16.7521, -17.8154, -19.6475, -16.9245, -21.3785, -15.8109, -22.9376, -14.5859, -22.9376, -14.3631, -23.7171, -5.23143, -24.0512, -3.67236, -23.4944, -3.00419, -22.1581, -2.78146, -20.9331, -1.89056, -20.599, -0.665581, -16.7013, -0.554218, -14.0286, 0.225319, -9.35139, 0.225319, -8.57186, 1.56166, -7.12415, 2.00711, -5.67644, 3.00938, -4.34009, 4.123, -2.66965, 4.45709, -1.77876, 4.45709, -0.108318, 4.34573, 1.67348, 3.2321, 3.23255, 2.45256, 4.5689, 2.45256, 6.12797, 1.33894, 6.68478, 1.33894, 7.46432, 1.4503, 8.46658, 3.78891, 8.02113, 5.34798, 7.7984, 5.0139, 6.46206, 5.34798, 5.4598 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+limit_left = 0
+limit_top = 0
+
+[node name="bg_snd" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 3 )
+volume_db = -6.0
+autoplay = true
+
+[node name="beat" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 4 )
+volume_db = 24.0
+autoplay = true
+
+[node name="bg_snd2" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 5 )
+volume_db = 8.577
+autoplay = true
