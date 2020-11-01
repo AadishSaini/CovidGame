@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/362670__osiruswaltz__creepy-background-noise-1-loopable.wav-38346f3a9af55b45eecf98fd42266dea.sample"
+path="res://.import/362670__osiruswaltz__creepy-background-noise-1-loopable.wav-b95f436bf5301f08010a16986062fbee.sample"
 
 [deps]
 
-source_file="res://assets/362670__osiruswaltz__creepy-background-noise-1-loopable.wav"
-dest_files=[ "res://.import/362670__osiruswaltz__creepy-background-noise-1-loopable.wav-38346f3a9af55b45eecf98fd42266dea.sample" ]
+source_file="res://CovidGame/assets/362670__osiruswaltz__creepy-background-noise-1-loopable.wav"
+dest_files=[ "res://.import/362670__osiruswaltz__creepy-background-noise-1-loopable.wav-b95f436bf5301f08010a16986062fbee.sample" ]
 
 [params]
 

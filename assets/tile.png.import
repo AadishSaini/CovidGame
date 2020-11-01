@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tile.png-455dd1073ac41712b0ee435e5393be66.stex"
+path="res://.import/tile.png-7729bfaab10b6b2d77a45194c6ff0e66.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tile.png"
-dest_files=[ "res://.import/tile.png-455dd1073ac41712b0ee435e5393be66.stex" ]
+source_file="res://CovidGame/assets/tile.png"
+dest_files=[ "res://.import/tile.png-7729bfaab10b6b2d77a45194c6ff0e66.stex" ]
 
 [params]
 

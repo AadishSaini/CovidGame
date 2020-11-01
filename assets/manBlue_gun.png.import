@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/manBlue_gun.png-aaaa5e9b5c21b065c935b72c41662654.stex"
+path="res://.import/manBlue_gun.png-9fbb099c40918445c02d3cb6928dd356.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/manBlue_gun.png"
-dest_files=[ "res://.import/manBlue_gun.png-aaaa5e9b5c21b065c935b72c41662654.stex" ]
+source_file="res://CovidGame/assets/manBlue_gun.png"
+dest_files=[ "res://.import/manBlue_gun.png-9fbb099c40918445c02d3cb6928dd356.stex" ]
 
 [params]
 
