@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bg-black.png-0c6f07e6d4712bed730fa31d2dfd5bf5.stex"
+path="res://.import/bg-black.png-decc20f22c43ddb0447ece329df8bcb4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://CovidGame/assets/bg-black.png"
-dest_files=[ "res://.import/bg-black.png-0c6f07e6d4712bed730fa31d2dfd5bf5.stex" ]
+source_file="res://assets/bg-black.png"
+dest_files=[ "res://.import/bg-black.png-decc20f22c43ddb0447ece329df8bcb4.stex" ]
 
 [params]
 

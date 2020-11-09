@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/heartbeat.wav-bddb2a36c18bce544787d7e3f8db5df7.sample"
+path="res://.import/heartbeat.wav-10e43c597c293023c80b3cd0bc489a93.sample"
 
 [deps]
 
-source_file="res://CovidGame/assets/heartbeat.wav"
-dest_files=[ "res://.import/heartbeat.wav-bddb2a36c18bce544787d7e3f8db5df7.sample" ]
+source_file="res://assets/heartbeat.wav"
+dest_files=[ "res://.import/heartbeat.wav-10e43c597c293023c80b3cd0bc489a93.sample" ]
 
 [params]
 

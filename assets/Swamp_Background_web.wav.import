@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Swamp_Background_web.wav-d3fd623b103db86d22facc7a7f212637.sample"
+path="res://.import/Swamp_Background_web.wav-420a1081212db41487e6c246122471b7.sample"
 
 [deps]
 
-source_file="res://CovidGame/assets/Swamp_Background_web.wav"
-dest_files=[ "res://.import/Swamp_Background_web.wav-d3fd623b103db86d22facc7a7f212637.sample" ]
+source_file="res://assets/Swamp_Background_web.wav"
+dest_files=[ "res://.import/Swamp_Background_web.wav-420a1081212db41487e6c246122471b7.sample" ]
 
 [params]
 
