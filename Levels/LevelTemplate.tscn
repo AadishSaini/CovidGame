@@ -1,10 +1,11 @@
-[gd_scene load_steps=44 format=2]
+[gd_scene load_steps=45 format=2]
 
 [ext_resource path="res://src/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/dark_light.png" type="Texture" id=2]
 [ext_resource path="res://assets/city_extension.png" type="Texture" id=3]
 [ext_resource path="res://assets/terrain.png" type="Texture" id=4]
 [ext_resource path="res://src/EnemyCorona.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Levels/LevelTemplate.gd" type="Script" id=6]
 
 [sub_resource type="TileSet" id=1]
 0/name = "terrain.png 0"
@@ -470,6 +471,7 @@ points = PoolVector2Array( 79, 75, 21, 75, 21, 16, 77, 15 )
 polygon = PoolVector2Array( 514.002, 893.667, 703.549, 894.335, 704, 516.024, 1920, 512, 1928, 1336, 2736, 1344, 3328, 1344, 3328, 2432, 3776, 2432, 3776, 3776, 3256, 3776, 1152, 3776, 1152, 2432, 2880, 2432, 2880, 1600, 1920, 1600, 1920, 1664, 704, 1664, 704, 1216, 512, 1216, 512, 1280, 576, 1280, 576, 1344, 640, 1344, 640, 1728, 1984, 1728, 1984, 1664, 2816, 1664, 2816, 2368, 1088, 2368, 1088, 3840, 3840, 3840, 3840, 2368, 3392, 2368, 3392, 1280, 1984, 1280, 1984, 448, 640, 448, 640, 768, 576, 768, 576, 832, 512, 832 )
 
 [node name="LevelTemplate" type="Node2D"]
+script = ExtResource( 6 )
 
 [node name="Ground" type="TileMap" parent="."]
 tile_set = SubResource( 1 )

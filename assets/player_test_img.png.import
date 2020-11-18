@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/player_test_img.png-f96c93c7164b3e82b1be040e6d2bd17d.stex"
+path="res://.import/player_test_img.png-2081c20233d8ba1b98210fa16032f895.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/player_test_img.png"
-dest_files=[ "res://.import/player_test_img.png-f96c93c7164b3e82b1be040e6d2bd17d.stex" ]
+source_file="res://CovidGame/assets/player_test_img.png"
+dest_files=[ "res://.import/player_test_img.png-2081c20233d8ba1b98210fa16032f895.stex" ]
 
 [params]
 

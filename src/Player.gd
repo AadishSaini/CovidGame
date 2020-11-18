@@ -14,4 +14,8 @@ func get_input():
 
 func _physics_process(delta):
 	get_input()
+	var collision = move_and_collide(velocity * delta)
+	if collision:
+		pass
 	velocity = move_and_slide(velocity)
+
