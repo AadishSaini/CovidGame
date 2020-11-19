@@ -11,11 +11,14 @@ func get_input():
 		velocity = Vector2(-speed, 0).rotated(rotation)
 	if Input.is_action_pressed("move_up"):
 		velocity = Vector2(speed, 0).rotated(rotation)
+	if Input.is_action_just_pressed("fire"):
+		shoot()
 
 func _physics_process(delta):
 	get_input()
-	var collision = move_and_collide(velocity * delta)
-	if collision:
-		pass
 	velocity = move_and_slide(velocity)
 
+func shoot():	
+	var b = preload("res://src/Bullet.tscn").instance()
+	owner.add_child(b)
+	b.transform = $Muzzle.global_transform

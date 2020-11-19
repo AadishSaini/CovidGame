@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/red_light.png-d217c57039ce2bcfc501cc68d144e024.stex"
+path="res://.import/red_light.png-e56389d3337f9d4a881873fa7a1b1f83.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://CovidGame/assets/red_light.png"
-dest_files=[ "res://.import/red_light.png-d217c57039ce2bcfc501cc68d144e024.stex" ]
+source_file="res://assets/red_light.png"
+dest_files=[ "res://.import/red_light.png-e56389d3337f9d4a881873fa7a1b1f83.stex" ]
 
 [params]
 

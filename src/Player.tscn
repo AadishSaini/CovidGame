@@ -41,3 +41,6 @@ autoplay = true
 stream = ExtResource( 5 )
 volume_db = 8.577
 autoplay = true
+
+[node name="Muzzle" type="Position2D" parent="."]
+position = Vector2( 30.8677, 10.6634 )

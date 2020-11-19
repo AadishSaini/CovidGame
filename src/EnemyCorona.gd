@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-var vel: = Vector2(0, 300)
+var vel: = Vector2(0, 500)
 
 func _ready():
 	pass # Replace with function body.

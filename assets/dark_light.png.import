@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dark_light.png-c43de93b46596795459d681b913925fa.stex"
+path="res://.import/dark_light.png-cfed89fc4caeb2789a9e27b1ccdccf80.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://CovidGame/assets/dark_light.png"
-dest_files=[ "res://.import/dark_light.png-c43de93b46596795459d681b913925fa.stex" ]
+source_file="res://assets/dark_light.png"
+dest_files=[ "res://.import/dark_light.png-cfed89fc4caeb2789a9e27b1ccdccf80.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/main-qimg-b87748c404cb540abd86c0c17c896aca.png-64bcc45f1673c11221c6fa5344fdc9f0.stex"
+path="res://.import/main-qimg-b87748c404cb540abd86c0c17c896aca.png-94c57b0dbf45e9233e8520488201bdc0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://CovidGame/assets/main-qimg-b87748c404cb540abd86c0c17c896aca.png"
-dest_files=[ "res://.import/main-qimg-b87748c404cb540abd86c0c17c896aca.png-64bcc45f1673c11221c6fa5344fdc9f0.stex" ]
+source_file="res://assets/main-qimg-b87748c404cb540abd86c0c17c896aca.png"
+dest_files=[ "res://.import/main-qimg-b87748c404cb540abd86c0c17c896aca.png-94c57b0dbf45e9233e8520488201bdc0.stex" ]
 
 [params]
 

@@ -1,14 +1,13 @@
 extends Node2D
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+var sanitizer_points = 100
 
-
-# Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
+	pass
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _physics_process(delta):
+	var collision = get_node("Player").move_and_collide(get_node("Player").velocity * delta)
+	if collision:
+		if collision.collider.name == "EnemyCorona" or collision.collider.name == "EnemyCorona2" or collision.collider.name == "EnemyCorona3" or collision.collider.name == "EnemyCorona4" or collision.collider.name == "EnemyCorona5" or collision.collider.name == "EnemyCorona6" or collision.collider.name == "EnemyCorona7":
+			sanitizer_points -= 10
+			get_node("CanvasLayer/Label").text = str(sanitizer_points)
